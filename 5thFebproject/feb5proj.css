@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    gap:122px;
+    background-image: url(./Assets/Img/bg5feb.png);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* Nav */
+.navv{
+    display: flex;
+    flex-direction: row;
+    gap:52px;
+    height: 62px;
+    background-color: #131212;
+
+}
+
+.logo {
+    height: 30px;
+    margin-top: 12.5px;
+    margin-left: 15px;
+}
+
+ul {
+    display: flex;
+    gap: 35px;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 12.5px;
+    
+}
+
+a {
+    text-decoration-line: none;
+    font-weight: 400;
+    color:white;
+
+}
+
+.hbutton{
+    margin-left: 395px; 
+    background-color:#b90ec5;
+    border: none;
+    height:32px;
+    width: 160px;
+    border-radius: 5px;
+    color: rgb(234, 238, 241);
+    font-weight: 500;
+    font-size: medium;
+    align-content: center;
+    margin-top: 11.5px;
+    
+}
+
+/* Section */
+.sectionn{
+    display:flex;
+    flex-direction: column;
+    gap:58px;
+    margin-top: 5px;
+}
+
+h1{
+    color:#fbfbfc;
+    margin-left: 370px;
+    font-weight:700;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    font-size: 55px;
+}
+span{
+   font-size: 55px;
+   margin-left: -27px;
+}
+p{
+    color: #fbfbfc;
+    margin-left: 405px;
+    font-weight: 500;
+    font-size:20px;
+}
+
+.sbutton{
+    background-color: #b90ec5;
+    color: rgb(234, 238, 241);
+    font-weight: 550;
+    font-size: 22px;
+    align-content: center;
+    height: 50px;
+    width: 265px;
+    border-radius: 5px;
+    border:none;
+    margin-left: 505px;
+}
